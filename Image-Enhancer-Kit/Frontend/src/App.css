@@ -1,0 +1,143 @@
+.App{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  color: white;
+  background-color: #222;
+}
+.App  > div{
+  display: flex;
+  flex-direction: column;
+  
+}
+.left-cont{
+  justify-content: space-around;
+  width: 50%;
+  align-items: center;
+  height: 100%;
+}
+.right-cont{
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+.param{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.grayscale-param{
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+#root{
+  width: 100%;
+}
+
+.allTagsCont{
+  display: flex;
+  flex-direction: column;
+}
+.user-image{
+   height: 600px;
+   width: 600px;
+   /* overflow: scroll; */
+}
+
+
+.user-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-image{
+  max-height: 500px;
+   max-width: 600px;
+   
+}
+
+.download-upload-cont{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.feature-cards{
+  /* display: grid;
+  justify-items: center;
+  padding: 5rem;
+  grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
+  
+  grid-gap: 150px;
+  background-color: #242424;
+  margin: auto; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 4rem;
+  
+  
+}
+
+.App-resize{
+  align-items: center;
+}
+
+.right-cont-resize{
+  height: 30%;
+}
+.feature-cards > div{ 
+   margin-right: 7rem;
+   margin-bottom: 2rem;
+}
+
+
+
+
+.rotate-cont{
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+/* 
+.lRotate{
+  margin-right: 10px;
+  margin-left: 10px;
+} */
+
+.button{
+  background-color: whitesmoke;
+  color: black;
+}
+
+.Contrast-param{
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.border-param{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.main_app{
+  background-color: #242424;
+}
+
+.heading-home{
+  text-align: center;
+  background-color: #242424;
+  margin: 3rem 0rem 2rem 0rem;
+  color: whitesmoke;
+  
+}

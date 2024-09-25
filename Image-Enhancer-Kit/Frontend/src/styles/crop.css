@@ -1,0 +1,78 @@
+.baap-crop{
+  background-color: #333;
+  color: whitesmoke;
+  height: 100vh;
+  width: 100vw;
+  padding: 1rem;
+}
+.title{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.Crop-App {
+  
+  font-family: sans-serif;
+  padding: 16px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.Crop-Controls{
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  height: 15%;
+}
+
+.other-controls > input{
+  margin-right: 10px;
+}
+
+.Crop-Controls div{
+  margin-bottom: 15px;
+}
+
+.Crop-Controls {
+  margin-bottom: 10px;
+}
+.Crop-Controls > * {
+  margin-bottom: 3px;
+}
+
+.Crop-App img {
+  max-width: 350px;
+}
+
+.download-button{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.div-center{
+  display: flex;
+  justify-content: center;
+  
+}
+.div-vert-center{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.crop-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 17.18rem;
+
+}
+
+
+.main-image-crop{
+  max-width: 600px;
+  
+}
